@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Automobilių Naudojimo Sekimas</title>
+    <link rel="stylesheet" href="Stilius.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <header>
+        <h1>Automobilių Naudojimo Sekimas</h1>
+    </header>
+    <section>
+        <form id="new-car-form">
+            <input type="text" id="brand" placeholder="Markė" required>
+            <input type="text" id="model" placeholder="Modelis" required>
+            <input type="text" id="registration" placeholder="Valstybiniai numeriai" required>
+            <input type="text" id="fuel" placeholder="Kuras" required>
+            <input type="number" id="mileage" placeholder="Rida" required>
+            <button type="submit">Pridėti Automobilį</button>
+        </form>
+    </section>
+    <section>
+        <h2>Automobilių Sąrašas</h2>
+        <table id="cars-table">
+            <thead>
+                <tr>
+                    <th>Markė</th>
+                    <th>Modelis</th>
+                    <th>Valstybiniai numeriai</th>
+                    <th>Kuras</th>
+                    <th>Rida</th>
+                </tr>
+            </thead>
+            <tbody>
+             
+            </tbody>
+        </table>
+    </section>
+
+    <section id="naudojimai-section">
+        <h2>Naudojimo Įrašai</h2>
+        <form id="new-use-form">
+            <input type="text" id="name" placeholder="Vardas" required>
+            <input type="text" id="surname" placeholder="Pavardė" required>
+            <input type="email" id="email" placeholder="El. paštas" required>
+            <button type="submit">Pridėti Įrašą</button>
+        </form>
+        <table id="naudojimai-table">
+            <thead>
+                <tr>
+                    <th>Vardas</th>
+                    <th>Pavardė</th>
+                    <th>El. paštas</th>
+                </tr>
+            </thead>
+            <tbody>
+         
+            </tbody>
+        </table>
+    </section>
+
+    <section id="servisai-section">
+        <h2>Serviso Įrašai</h2>
+        <form id="new-service-form">
+            <input type="number" id="service-carId" placeholder="Automobilio ID" required>
+            <input type="date" id="service-date" placeholder="Serviso data" required>
+            <input type="text" id="service-work" placeholder="Atliktas darbas" required>
+            <input type="text" id="service-comments" placeholder="Komentarai" required>
+            <button type="submit">Pridėti Serviso Įrašą</button>
+        </form>
+        <table id="servisai-table">
+            <thead>
+                <tr>
+                    <th>Automobilio ID</th>
+                    <th>Serviso data</th>
+                    <th>Atliktas darbas</th>
+                    <th>Komentarai</th>
+                </tr>
+            </thead>
+            <tbody>
+            
+            </tbody>
+        </table>
+    </section>
+
+    <section id="vartotojai-section">
+        <h2>Vartotojai</h2>
+        <form id="new-user-form">
+            <input type="text" id="user-name" placeholder="Vardas" required>
+            <input type="text" id="user-surname" placeholder="Pavardė" required>
+            <input type="email" id="user-email" placeholder="El. paštas" required>
+            <button type="submit">Pridėti Vartotoją</button>
+        </form>
+        <table id="vartotojai-table">
+            <thead>
+                <tr>
+                    <th>ID</th>
+                    <th>Vardas</th>
+                    <th>Pavardė</th>
+                    <th>El. Paštas</th>
+                </tr>
+            </thead>
+            <tbody>
+         
+            </tbody>
+        </table>
+    </section>
+</body>
+</html>

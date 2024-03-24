@@ -1,0 +1,18 @@
+[
+    {
+      "id": 1,
+      "automobilioId": 1,
+      "vartotojoId": 1,
+      "naudojimoData": "2024-03-20",
+      "pravažiuotasAtstumas": 100
+    },
+    {
+      "id": 2,
+      "automobilioId": 2,
+      "vartotojoId": 2,
+      "naudojimoData": "2024-03-21",
+      "pravažiuotasAtstumas": 150
+    }
+
+  ]
+  

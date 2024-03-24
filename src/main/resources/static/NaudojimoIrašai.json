@@ -1,0 +1,16 @@
+[
+    {
+      "id": 1,
+      "vardas": "Jonas",
+      "pavardė": "Jonaitis",
+      "el. paštas": "jonas@example.com"
+    },
+    {
+      "id": 2,
+      "vardas": "Petras",
+      "pavardė": "Petraitis",
+      "el. paštas": "petras@example.com"
+    }
+
+  ]
+  

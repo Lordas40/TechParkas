@@ -1,0 +1,20 @@
+[
+    {
+      "id": 1,
+      "markė": "Toyota",
+      "modelis": "Corolla",
+      "valstybiniaiNumeriai": "ABC123",
+      "kuras": "Benzinas",
+      "rida": 50000
+    },
+    {
+      "id": 2,
+      "markė": "Tesla",
+      "modelis": "Model 3",
+      "valstybiniaiNumeriai": "DEF456",
+      "kuras": "Elektra",
+      "rida": 25000
+    }
+
+  ]
+  

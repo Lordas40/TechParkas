@@ -1,0 +1,18 @@
+[
+    {
+      "id": 1,
+      "automobilioId": 1,
+      "servisoData": "2023-12-15",
+      "atliktasDarbas": "Alyvos keitimas",
+      "komentarai": "Alyvos keitimas ir filtro pakeitimas."
+    },
+    {
+      "id": 2,
+      "automobilioId": 2,
+      "servisoData": "2024-01-20",
+      "atliktasDarbas": "Padangų keitimas",
+      "komentarai": "Žieminės padangos pakeistos į vasarines."
+    }
+    
+  ]
+  
