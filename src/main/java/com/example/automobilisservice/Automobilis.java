@@ -81,7 +81,6 @@ public class Automobilis {
                 Objects.equals(valstybiniaiNumeriai, that.valstybiniaiNumeriai) &&
                 Objects.equals(kuras, that.kuras);
     }
-
     @Override
     public int hashCode() {
         return Objects.hash(id, marke, modelis, valstybiniaiNumeriai, kuras, rida);
